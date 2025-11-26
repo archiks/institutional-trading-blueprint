@@ -1,0 +1,19 @@
+   @tailwind base;
+   @tailwind components;
+   @tailwind utilities;
+/* Custom Global Styles */
+/* Note: Tailwind utility classes are loaded via CDN in index.html */
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
